@@ -1,0 +1,45 @@
+
+
+.header-main{
+  background-image: url('/src/images/bg-1.png');
+}
+
+.header-p{
+  background-color: #00000080;
+  
+}
+
+.head-about{
+  background-image: url('/src/images/bg2.png');
+}
+
+.card-object{
+  width: 49%;
+  margin-left: 11px;
+  margin-top: 35px;
+}
+
+@media screen and (max-width:1366px){
+
+  .card-object{
+  width: 48%;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+}
+
+@media screen and (max-width:768px){
+
+  .card-object{
+  width: 49%;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+}
+
+@media screen and (max-width:540px){
+  .card-object{
+    width: 100%;
+   margin-top: 15px;
+  }
+}
